@@ -5,6 +5,7 @@ import { PowerIcon } from '@heroicons/react/24/outline';
 import { signOut } from 'next-auth/react';
 
 export default function SideNav() {
+  console.log(signOut);
   return (
     <div className="flex h-full flex-col px-3 py-4 md:px-2">
       <Link
